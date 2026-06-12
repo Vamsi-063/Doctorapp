@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color:blueviolet;
+    color:white;
+    font-weight:bold;
+
+}
+
+button{
+    padding: 10px 30px;
+    margin:5px;
+}
+
+.s1{
+    display: flex;
+    background-color:blueviolet;
+    color: white;
+}
+.s1>div{
+    padding: 20px;
+    font-size: 20px;
+} 
+
+.s1>div{
+    flex-basis: 50%;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0px 0px 2px 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.doctorparent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.doctorparent .card{
+    flex-basis: 30%;
+}
+
+.add-doctor-heading{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.form-container{
+    width:30%;
+    margin:auto;
+    border:1px solid black;
+    padding:20px;
+}
+
+.text-feild,
+select{
+    display:block;
+    width:100%;
+    padding:7px;
+    margin-bottom:20px;
+}
+
+.form-container button{
+    display:block;
+    margin:auto;
+    background-color:black;
+    color:white;
+    width:100%;
+}
+
