@@ -25,6 +25,20 @@ button{
     background-color:blueviolet;
     color: white;
 }
+
+.s1 img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+@media (max-width: 768px){
+    .s1{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .s1>div{
     padding: 20px;
     font-size: 20px;
@@ -56,12 +70,10 @@ button{
 }
 
 .form-container{
-    width:30%;
-    margin:auto;
-    border:1px solid black;
-    padding:20px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
 }
-
 .text-feild,
 select{
     display:block;
