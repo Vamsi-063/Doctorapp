@@ -1,5 +1,5 @@
 import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
+import Section from "./Components/section";
 import "./Components/styles.css";
 import Addnewdoctor from "./Components/Addnewdoctor";
 import { Routes, Route } from "react-router-dom";
